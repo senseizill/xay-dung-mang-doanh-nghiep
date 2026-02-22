@@ -1,4 +1,4 @@
-# Dự án: Thiết kế & Triển khai Hạ tầng Mạng Doanh nghiệp Đa tầng (Multi-VLAN Network)
+# Dự án: Thiết kế & Triển khai Hạ tầng Mạng Doanh nghiệp
 ## 1. Tổng quan dự án
 Dự án tập trung vào việc thiết kế một hạ tầng mạng quy mô doanh nghiệp nhỏ/vừa, đảm bảo tính bảo mật và tối ưu hóa tài nguyên địa chỉ IP. Hệ thống phân chia thành các VLAN riêng biệt cho từng phòng ban, tích hợp mạng không dây và các dịch vụ mạng cơ bản.
 
