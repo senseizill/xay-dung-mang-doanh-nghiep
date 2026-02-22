@@ -1,14 +1,14 @@
-### Dự án: Thiết kế & Triển khai Hạ tầng Mạng Doanh nghiệp Đa tầng (Multi-VLAN Network)
+# Dự án: Thiết kế & Triển khai Hạ tầng Mạng Doanh nghiệp Đa tầng (Multi-VLAN Network)
 ## 1. Tổng quan dự án
 Dự án tập trung vào việc thiết kế một hạ tầng mạng quy mô doanh nghiệp nhỏ/vừa, đảm bảo tính bảo mật và tối ưu hóa tài nguyên địa chỉ IP. Hệ thống phân chia thành các VLAN riêng biệt cho từng phòng ban, tích hợp mạng không dây và các dịch vụ mạng cơ bản.
 
-# Các công nghệ trọng tâm:
+### Các công nghệ trọng tâm:
 Subnetting (VLSM): Tối ưu hóa dải IP 192.168.49.0/24.
 VLAN & Trunking: Phân tách luồng dữ liệu giữa các phân khu.
 Static Routing: Thiết lập kết nối liên mạng giữa các Router Cisco.
 Network Services: Cấu hình Wireless, Telnet, DNS và Email Server.
 
-# 2. Kế hoạch địa chỉ IP (IP Addressing Plan)
+### 2. Kế hoạch địa chỉ IP (IP Addressing Plan)
 Sử dụng kỹ thuật VLSM để chia nhỏ mạng chính thành các Subnet phù hợp với nhu cầu thực tế của từng bộ phận.
 Phân khu (Subnet)	Địa chỉ IP	Subnet Mask	Gateway	Mục đích
 VLAN 1	192.168.49.0/26	255.255.255.192	192.168.49.1	
@@ -25,7 +25,7 @@ Kết nối Router
 Link B (R2-R3)	192.168.49.164/30	255.255.255.252	-	
 Kết nối Router 
 
-# 3. Mô phỏng hệ thống (Cisco Simulation)
+### 3. Mô phỏng hệ thống (Cisco Simulation)
 Hệ thống được thiết lập và kiểm thử trên môi trường mô phỏng Cisco (Packet Tracer/GNS3) với cấu hình chi tiết cho từng lớp thiết bị.
 Cấu hình thiết bị chính:
 Router (R1, R2, R3):
