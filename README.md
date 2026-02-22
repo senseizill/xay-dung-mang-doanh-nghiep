@@ -38,8 +38,8 @@ Cấu hình VLAN Access cho các cổng kết nối người dùng (VLAN 1, 2, 3
 Cấu hình cổng Trunk (Giga0/1) để truyền tải nhiều VLAN lên Router.<br>
 
 Wireless:<br>
-Thiết lập 2 Access Point (WR1, WR2) cấp phát IP cho các Laptop không dây trong dải 192.168.0.x.
-Kiểm thử & Kết quả (Verification):
-Định tuyến: Kiểm tra bảng định tuyến trên R2 thấy đầy đủ các lớp mạng đích thông qua Next Hop tương ứng.
-Dịch vụ: Laptop từ các VLAN khác nhau truy cập thành công dịch vụ Email (user1@gmail.com) và phân giải tên miền qua DNS.
-Quản trị: Truy cập từ xa vào Router thông qua Telnet thành công từ bất kỳ thiết bị nào trong mạng.
+Thiết lập 2 Access Point (WR1, WR2) cấp phát IP cho các Laptop không dây trong dải 192.168.0.x.<br>
+Kiểm thử & Kết quả (Verification):<br>
+Định tuyến: Kiểm tra bảng định tuyến trên R2 thấy đầy đủ các lớp mạng đích thông qua Next Hop tương ứng.<br>
+Dịch vụ: Laptop từ các VLAN khác nhau truy cập thành công dịch vụ Email (user1@gmail.com) và phân giải tên miền qua DNS.<br>
+Quản trị: Truy cập từ xa vào Router thông qua Telnet thành công từ bất kỳ thiết bị nào trong mạng.<br>
