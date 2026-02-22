@@ -3,7 +3,7 @@
 Dự án tập trung vào việc thiết kế một hạ tầng mạng quy mô doanh nghiệp nhỏ/vừa, đảm bảo tính bảo mật và tối ưu hóa tài nguyên địa chỉ IP. Hệ thống phân chia thành các VLAN riêng biệt cho từng phòng ban, tích hợp mạng không dây và các dịch vụ mạng cơ bản.
 
 ### Các công nghệ trọng tâm:
-Subnetting (VLSM): Tối ưu hóa dải IP 192.168.49.0/24.
+Subnetting (VLSM): Tối ưu hóa dải IP 192.168.49.0/24.<br>
 VLAN & Trunking: Phân tách luồng dữ liệu giữa các phân khu.
 Static Routing: Thiết lập kết nối liên mạng giữa các Router Cisco.
 Network Services: Cấu hình Wireless, Telnet, DNS và Email Server.
